@@ -9,7 +9,7 @@ export default function TesisListContainer() {
   const [seccionSeleccionada, setSeccionSeleccionada] = useState<string>("TODAS");
 
   const handleSolicitarPorGmail = (tesis: Tesis) => {
-    const destinatario = "uesmagalyruiz03@gmail.com";
+    const destinatario = "bibliotecadepostgradounefa18@gmail.com";
     const asunto = `Solicitud de Tesis: ${tesis.titulo}`;
     const cuerpo = `Estimado equipo de la biblioteca,
 
